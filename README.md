@@ -1,12 +1,12 @@
 ### This repo contains a sample terraform provider
 
 Goal: 
-    - To write a basic provider which call APIs and creates stuff
+- To write a basic provider which call APIs and creates stuff
 
 
 How to use?
 
-- go build -o terraform-provider-example
+- RUN `go build -o terraform-provider-example`
 
 - Create a ~/.terraformrc file (For mac users) to point to use dev overrides
 
