@@ -8,15 +8,15 @@ How to use?
 
 - go build -o terraform-provider-example
 
-- ### Create a ~/.terraformrc file (For mac users) to point to use dev overrides
+- Create a ~/.terraformrc file (For mac users) to point to use dev overrides
 
-`provider_installation {
+        provider_installation {
 
-  dev_overrides {
-      "sachin.com/exampleprovider/example" = "<path-to-provider-binary>"
-  }
-  direct {}
-}`
+        dev_overrides {
+            "sachin.com/exampleprovider/example" = "<path-to-provider-binary>"
+        }
+        direct {}
+        }
 
 - cd provider-test 
 - terraform plan
