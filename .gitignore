@@ -1,0 +1,4 @@
+terraform-provider-example
+go.mod
+go.sum
+*/*.tfstate
